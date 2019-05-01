@@ -1,0 +1,8 @@
+create database billingcounter;
+use billingcounter;
+create table admin(username varchar(90)primary key,pin varchar(90));
+create table superwiser(sid int(11) primary key,name varchar(90),pin varchar(90),sex varchar(90),recidence varchar(225),dob varchar(90),dateofjoin varchar(90),status varchar(90));
+create table oprator(sid int(11),id int(11) primary key,name varchar(90),sname varchar(90),pin varchar(90),sex varchar(9),recedence varchar(225),dob varchar(90),dateofjoin varchar(90),status varchar(90));
+
+create table adminid(id varchar(90));
+create table product(sid int(50), sname varchar(50), oid int(50), oname varchar(50), cname varchar(50), pname varchar(50), price varchar(80));
